@@ -156,16 +156,16 @@
 \begin{document}
 
 %===== Lecture's number, title, and students' names.
-\lecture{7} % Lecture number
+\lecture{8} % Lecture number
 {Nearest Neighbor, k-Nearest Neighbors, and k-Means} % Lecture title
 {Harnoor Singh and Jason Vaughn} % Students' names
 
 %===== Section
 \section{Introduction}
-\textbf{Nearest Neighbor} is a method used for classification of data points through supervised learning. For an instance, given a labeled data set divided it to 2 or more classes, predict which class a new point $X_{n+1}$ will belong to. k-Nearest Neighbors is used as a better alternative to this algorithm.
+\textbf{Nearest Neighbor} is a method used for classification of data points through supervised learning. For an instance, given a labeled data set divided it to 2 or more classes, predict which class a new point $\textbf{X}_{n+1}$ will belong to. k-Nearest Neighbors is used as a better alternative to this algorithm.
 
 \textbf{k-Nearest Neighbors}  is a non-parametric method used for classification and regression. As the labels are given to us, this method is called a Supervised Learning Model. \\
-Goal: For an instance, given a labeled data-set divided into several classes, predict which category a new X point will lie.\\
+Goal: For an instance, given a labeled data-set divided into several classes, predict which category a new \textbf{X} point will lie.\\
 This can be used for searching for semantically similar objects or even recommender systems.
 
 \textbf{k-Means Clustering}  is a clustering algorithm that tries to partition a set of points into K sets (clusters) such that the points in each cluster tend to be near each other. It is unsupervised because labels (classes/categories) are not given for the set of points.\\
@@ -176,7 +176,7 @@ This is useful for things such as clustering customers and segmenting them or tr
 In the Nearest Neighbor algorithm, the goal is to find the classifier of a new data point while being given a set S of points with known classifiers. The classifier of this new data point $X_{n+1}$ is the classifier, $K_{n+1}$, of the nearest point to $X_{n+1}$. This is accomplished by finding the point $i^*$ where:
 
 \begin{equation}
-i^* = \argmin_{i\in \{1,...,N\}} ||X_{n+1} - X_i||_2 ^2
+i^* = \argmin_{i\in \{1,...,n\}} ||\textbf{X}_{n+1} - \textbf{X}_i||_2 ^2
 \end{equation}
 
 The classifier that is given to $i^*$ is now also given to $X_{n+1}$, meaning:
@@ -186,29 +186,29 @@ K_{n+1} = K_{i^*}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth, scale=0.5]{scribegraph1.png}
+	\includegraphics[width=0.5\linewidth, scale=0.5]{Nnbefore.png}
 	\caption{We only need to look at the closest neighbor to our new point.}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth, scale=0.5]{scribegraph2.png}
+	\includegraphics[width=0.5\linewidth, scale=0.5]{Nnafter.png}
 	\caption{Looking at the nearest point only, the new point is classified as green.}
 \end{figure}
 
 \section{k-Nearest Neighbors}
 
-k-Nearest Neighbors is just an extension of the Nearest Neighbor algorithm. The k in this algorithm is how many neighbors it is to consider. As such, Nearest Neighbor can be considered as 1-Nearest Neighbor. For k-Nearest Neighbors, we first find the k-closest points to a new point, $X_{n+1}$. From this, we take the argmax of the number of each classifier within our neighboring points. If two classifiers are tied for the most, we may randomly choose one of the tied classifiers for determining which our new point belongs to. k is usually chosen empirically.
+k-Nearest Neighbors is just an extension of the Nearest Neighbor algorithm. The k in this algorithm is how many neighbors it is to consider. As such, Nearest Neighbor can be considered as 1-Nearest Neighbor. For k-Nearest Neighbors, we first find the k-closest points to a new point, $\textbf{X}_{n+1}$. From this, we take the argmax of the number of each classifier within our neighboring points. If two classifiers are tied for the most, we may randomly choose one of the tied classifiers for determining which our new point belongs to. k is usually chosen empirically.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth, scale=0.5]{scribegraph1.png}
+	\includegraphics[width=0.5\linewidth, scale=0.5]{Knn3before.png}
 	\caption{We need to look at the closest neighbors to find the new black point's classifier. We will use k = 3.}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth, scale=0.5]{scribegraph3.png}
+	\includegraphics[width=0.5\linewidth, scale=0.5]{Knn3after.png}
 	\caption{Looking at the 3 nearest points, the majority classifier is red, so the new point is classified as red.}
 \end{figure}
 
@@ -216,7 +216,7 @@ k-Nearest Neighbors is just an extension of the Nearest Neighbor algorithm. The 
 
 Goal: Find some centers ranging from $\mu_1, \mu_2, ..................,\mu_k$ that minimizes the following equation:
 \begin{equation*}  
-\sum_{k=1}^{k}\sum_{x \in S_k} || X_i-\mu_k||_2^2
+\sum_{k=1}^{k}\sum_{\rm{x} \in S_k} || \textbf{X}_i-\mu_k||_2^2
 \end{equation*}
 
 
@@ -235,17 +235,17 @@ We will be using \textbf{Lloyd's  Algorithm} to solve the problem of k-Means by 
 
 \begin{itemize}
   \item Step 0: Initialize $\mu_1, \mu_2, ..................,\mu_k$ 
-  \item Step 1: Assign points $X_1, X_2, ..................,\X_N$ to their nearest nearest neighbours center. This will
+  \item Step 1: Assign points $\textbf{X}_1, \textbf{X}_2, ..................,\X_N$ to their nearest nearest neighbors center. This will
   produce the sets as $S_1, S_2, ..................,S_N$
   \item Step 2: Compute new centers. The mathematical form is as follows
   \begin{equation*} 
-\mu_k =  \frac{1}{|S_k|} \sum_{x_i \in S_k} X_i
+\mu_k =  \frac{1}{|S_k|} \sum_{\rm{x}_i \in S_k} \textbf{X}_i
  \end{equation*}
   
 \end{itemize}
 
  \begin{center}
- Repeat steps 1 and 2 until convergence. We know that the the centers will remain the same when the point of convergence arrives. Refer to figure 7.6 for the final graph.
+ Repeat steps 1 and 2 until convergence. We know that the the centers will remain the same when the point of convergence arrives. Refer to figure 8.6 for the final graph.
  \end{center}
 
   

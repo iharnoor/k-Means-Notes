@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.15)  20 FEB 2018 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.15)  19 APR 2018 21:06
 entering extended mode
 **./Scribing_Kmeans.tex
 (Scribing_Kmeans.tex
@@ -682,8 +682,7 @@ LaTeX Info: Redefining \checkoddpage on input line 59.
 \c@myRemark=\count289
 \c@myConjecture=\count290
 \c@lecnum=\count291
-
-No file Scribing_Kmeans.aux.
+ (Scribing_Kmeans.aux)
 \openout1 = `Scribing_Kmeans.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
@@ -700,6 +699,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
 LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
 LaTeX Font Info:    ... okay on input line 156.
+
 (C:\Users\hsingh9\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count292
@@ -740,6 +740,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 156.
 LaTeX Info: Redefining \pageref on input line 156.
 LaTeX Info: Redefining \nameref on input line 156.
+
+(Scribing_Kmeans.out) (Scribing_Kmeans.out)
 \@outlinefile=\write3
 \openout3 = `Scribing_Kmeans.out'.
 
@@ -764,101 +766,95 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
-<scribegraph1.png, id=3, 1025.33063pt x 517.18219pt>
-File: scribegraph1.png Graphic file (type png)
-<use scribegraph1.png>
-Package pdftex.def Info: scribegraph1.png  used on input line 189. on input lin
-e 189.
-Package pdftex.def Info: Requested size: 512.66406pt x 258.59045pt on input lin
+<Nnbefore.png, id=23, 421.575pt x 316.18124pt>
+File: Nnbefore.png Graphic file (type png)
+<use Nnbefore.png>
+Package pdftex.def Info: Nnbefore.png  used on input line 189. on input line 18
+9.
+Package pdftex.def Info: Requested size: 210.78697pt x 158.09023pt on input lin
 e 189.
  [1
 
 {C:/Users/hsingh9/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<scribegraph2.png, id=25, 1025.33063pt x 517.18219pt>
-File: scribegraph2.png Graphic file (type png)
-<use scribegraph2.png>
-Package pdftex.def Info: scribegraph2.png  used on input line 195. on input lin
+<Nnafter.png, id=42, 421.575pt x 316.18124pt>
+File: Nnafter.png Graphic file (type png)
+<use Nnafter.png>
+Package pdftex.def Info: Nnafter.png  used on input line 195. on input line 195
+.
+Package pdftex.def Info: Requested size: 210.78697pt x 158.09023pt on input lin
 e 195.
-Package pdftex.def Info: Requested size: 512.66406pt x 258.59045pt on input lin
-e 195.
-File: scribegraph1.png Graphic file (type png)
-<use scribegraph1.png>
-Package pdftex.def Info: scribegraph1.png  used on input line 205. on input lin
+<Knn3before.png, id=43, 421.575pt x 316.18124pt>
+File: Knn3before.png Graphic file (type png)
+<use Knn3before.png>
+Package pdftex.def Info: Knn3before.png  used on input line 205. on input line 
+205.
+Package pdftex.def Info: Requested size: 210.78697pt x 158.09023pt on input lin
 e 205.
-Package pdftex.def Info: Requested size: 512.66406pt x 258.59045pt on input lin
-e 205.
-<scribegraph3.png, id=26, 1025.33063pt x 517.18219pt>
-File: scribegraph3.png Graphic file (type png)
-<use scribegraph3.png>
-Package pdftex.def Info: scribegraph3.png  used on input line 211. on input lin
+ [2 <./Nnbefore.png (PNG copy)> <./Nnafter.png (PNG copy)>]
+<Knn3after.png, id=51, 421.575pt x 316.18124pt>
+File: Knn3after.png Graphic file (type png)
+<use Knn3after.png>
+Package pdftex.def Info: Knn3after.png  used on input line 211. on input line 2
+11.
+Package pdftex.def Info: Requested size: 210.78697pt x 158.09023pt on input lin
 e 211.
-Package pdftex.def Info: Requested size: 512.66406pt x 258.59045pt on input lin
-e 211.
- [2 <./scribegraph1.png> <./scribegraph2.png>]
-<initialstep.png, id=38, 455.45157pt x 340.27126pt>
+<initialstep.png, id=52, 455.45157pt x 340.27126pt>
 File: initialstep.png Graphic file (type png)
 <use initialstep.png>
 Package pdftex.def Info: initialstep.png  used on input line 232. on input line
  232.
 Package pdftex.def Info: Requested size: 227.72522pt x 170.13521pt on input lin
 e 232.
+ [3 <./Knn3before.png (PNG copy)> <./Knn3after.png (PNG copy)>]
 
+LaTeX Warning: Hyper reference `XDef' on page 8-4 undefined on input line 238.
 
-LaTeX Warning: Hyper reference `XDef' on page 7-3 undefined on input line 238.
-
-[3 <./scribegraph3.png> <./initialstep.png>]
-<finalstep.png, id=50, 447.92343pt x 340.27126pt>
+<finalstep.png, id=62, 447.92343pt x 340.27126pt>
 File: finalstep.png Graphic file (type png)
 <use finalstep.png>
 Package pdftex.def Info: finalstep.png  used on input line 254. on input line 2
 54.
 Package pdftex.def Info: Requested size: 223.96117pt x 170.13521pt on input lin
 e 254.
+[4 <./initialstep.png> <./finalstep.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
- [4 <./finalstep.png>]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
-
-(Scribing_Kmeans.aux)
+ (Scribing_Kmeans.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package rerunfilecheck Info: File `Scribing_Kmeans.out' has not changed.
+(rerunfilecheck)             Checksum: D2BF610346921BC65506A78CC19B0DEA;244.
 
-
-Package rerunfilecheck Warning: File `Scribing_Kmeans.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Scribing_Kmeans.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D2BF610346921BC65506A78CC19B0DEA;244.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 17379 strings out of 493312
- 308041 string characters out of 3138893
- 396873 words of memory out of 3000000
- 20752 multiletter control sequences out of 15000+200000
+ 17397 strings out of 493312
+ 308372 string characters out of 3138893
+ 397141 words of memory out of 3000000
+ 20762 multiletter control sequences out of 15000+200000
  535987 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,35p,10429b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,35p,10429b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Scribing_Kmeans.pdf (4 pages, 276524 bytes).
+pe1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Scribing_Kmeans.pdf (5 pages, 269211 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
